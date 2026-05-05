@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <div class="container">
+        <nav id="header">
+            <div id="nav-logo">
+                <p class="nav-name">My Personal Website</p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#education" class="nav-link">Education</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#experience" class="nav-link">Experience</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mode">
+                <div class="moon-sun" id="toggle-switch">
+                    <i class="fa fa-moon" id="moon"></i>
+                    <i class="fa fa-sun" id="sun"></i>
+                </div>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="hello">
+                        <p>Hello I'm</p>
+                    </div>
+                    <div class="featured-name">
+                        <span class="typedText"></span>
+                    </div>
+                    <div class="text-info">
+                        <p>My name is Reymalyn M. Arreola a Computer Engineering Student</p>
+                    </div>
+                    <div class="text-btn">
+                        <a href="cv.pdf" download class="btn">Download CV<i class="uil uil-file"></i></a>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon_circle"></div>
+                        <a href="https://www.instagram.com/lreyma/profilecard/?igsh=MWVrYzZiaDE5bWRobg==" target="_blank" class="icon">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/ins.yang.5?mibextid=ZbWKwL" target="_blank" class="icon">
+                            <i class="uil uil-facebook"></i>
+                        </a>
+                        <a href="https://x.com/ArreolaRey35544?t=vn9GLK82Ckvj3KVPTwbpnQ&s=09" target="_blank" class="icon">
+                            <i class="uil uil-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/reyma-arreola-a81768327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="reyma.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <figure class ="about-me">
+                                <figcaption>
+                                    <img src="reyma.png" alt="" class="profile">
+                                    <h2>Student</h2>
+                                    <p>My name is Reymalyn M. Arreola a hard-working and driven individual who isn't afraid to face a challenge, has a strong desire to learn new things, and actively looks for chances to increase knowledge and skills</p>
+                                </figcaption>
+                            </figure>
+                            <button class="about-me-btn">BSCpE</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="skills">
+                <div class="top-header">
+                    <h1>Skills</h1>
+                </div>
+                <div class="skill">
+                    <div class="skill-box">
+                        <span class="title">HTML</span>
+                        <div class="skill-bar html">
+                            <span class="skill-per">
+                                <span class="tooltip">80%</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <span class="title">JavaScript</span>
+                        <div class="skill-bar javascript">
+                            <span class="skill-per">
+                                <span class="tooltip">50%</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <span class="title">Python</span>
+                        <div class="skill-bar python">
+                            <span class="skill-per">
+                                <span class="tooltip">70%</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <span class="title">Microsoft Office Suite</span>
+                        <div class="skill-bar Microsoft">
+                            <span class="skill-per">
+                                <span class="tooltip">80%</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="education">
+                <div class="top-header">
+                    <h1>Education</h1>
+                </div>
+                <div class="education-container">
+                    <div class="education-box">
+                        <i class="uil uil-book-alt"></i>
+                        <h5>Cagayan State University Carig Campus</h5>
+                        <label>Bachelor of Science in Computer Engineering</label>
+                    </div>
+                    <div class="education-box">
+                        <i class="fa fa-graduation-cap"></i>
+                        <h4>San Beda University Manila</h4>
+                        <label>Senior High School-STEM</label>
+                    </div>
+                    <div class="education-box">
+                        <i class="fa fa-graduation-cap"></i>
+                        <h4>Saint Joseph School Diadi</h4>
+                        <label>Junior High School</label>
+                    </div>
+                    <div class="education-box">
+                        <i class="fa fa-graduation-cap"></i>
+                        <h4>Duruarog Elementary School</h4>
+                        <label>Diaid, Nueva Vizcaya</label>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="experience">
+                <div class="top-header">
+                    <h1>Experience</h1>
+                </div>
+                <div class="experience-container">
+                    <div class="experience-box">
+                        <i class="uil uil-briefcase-alt"></i>
+                        <h4>On The Job Training</h4>
+                        <label>ZOOMTECH I.T SOLUTIONS</label>
+                        <label>(July 2024 - August 2024)</label>
+                    </div>
+                    <div class="experience-box">
+                        <i class="uil uil-briefcase-alt"></i>
+                        <h4>Product Specialist</h4>
+                        <label>NLBBK Electronics INC.</label>
+                        <label>March 2020 - August 2022</label>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Let's Work Together</h1>
+                    <span>Do you have a project in your mind?</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Contact Me Now<i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope">arreolareyma@gmail.com</i></p>
+                            <p><i class="uil uil-phone">Phone: 09262085159</i> </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list"><a href="#home">Home</a></li>
+                    <li class="footer_menu_list"><a href="#about">About</a></li>
+                    <li class="footer_menu_list"><a href="#skills">Skills</a></li>
+                    <li class="footer_menu_list"><a href="#education">Education</a></li>
+                    <li class="footer_menu_list"><a href="#experience">Experience</a></li>
+                    <li class="footer_menu_list"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="social_icons">
+                <div class="icon_circle"></div>
+                <a href="https://www.instagram.com/lreyma/profilecard/?igsh=MWVrYzZiaDE5bWRobg==" target="_blank" class="icon">
+                    <i class="uil uil-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/ins.yang.5?mibextid=ZbWKwL" target="_blank" class="icon">
+                    <i class="uil uil-facebook"></i>
+                </a>
+                <a href="https://x.com/ArreolaRey35544?t=vn9GLK82Ckvj3KVPTwbpnQ&s=09" target="_blank" class="icon">
+                    <i class="uil uil-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/reyma-arreola-a81768327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="icon">
+                    <i class="uil uil-linkedin-alt"></i>
+                </a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
